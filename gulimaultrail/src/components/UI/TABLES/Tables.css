@@ -1,0 +1,177 @@
+.main-table-container {
+  display: flex;
+  flex-direction: column;
+
+  /* align-items: center; */
+
+  width: 100%;
+  height: auto;
+}
+.sub-table-container {
+  display: flex;
+  flex-direction: column;
+
+  /* align-items: center; */
+
+  width: 100%;
+  height: auto;
+}
+.table-container {
+  display: flex;
+  flex-direction: column;
+
+  /* align-items: center; */
+
+  margin-top: 1rem;
+
+  width: 90%;
+  height: 67vh;
+
+  overflow: scroll;
+}
+.corredores-table {
+  width: 100%;
+  height: auto;
+
+  margin: 0;
+
+  border: 2px solid var(--Orange-1000);
+  border-radius: var(--bradius-small);
+  border-spacing: 0;
+}
+.corredores-encabezado {
+  background-color: var(--Orange-1000);
+}
+th {
+  height: 1.9rem;
+  align-items: center;
+  justify-content: center;
+}
+.corredores-table td {
+  text-align: center;
+
+  padding: 0.3rem;
+
+  color: var(--White);
+
+  border-right: 0.15rem solid var(--Orange-1000);
+}
+.corredores-table td:nth-last-of-type(1) {
+  border-right: none;
+}
+
+/* ========== TH SIZES ========== */
+.thPos {
+  width: 4%;
+}
+.thNro {
+  width: 4%;
+}
+.thDistancia {
+  width: 4%;
+}
+.thSexo {
+  width: 7%;
+}
+.thCedula {
+  width: 7%;
+}
+.thSalida {
+  width: 6%;
+}
+.thLlegada {
+  width: 6%;
+}
+.thTiempo {
+  width: 6%;
+}
+.thNombre {
+  width: 15%;
+}
+.thCategoria {
+  width: 15%;
+}
+.thClub {
+  width: 20%;
+}
+.thPuntaje {
+  width: 3%;
+}
+.thMiembros {
+  width: 10%;
+}
+.thDescalificado {
+  width: 1%;
+}
+
+/* =================================== */
+
+@media (max-width: 768px) {
+  .thNombre {
+    width: 150%;
+  }
+  .thCategoria {
+    width: 150%;
+  }
+}
+
+/* =================================== */
+
+/* Estilos para el modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--Dark-gray-500);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  transition: all ease 0.5s;
+}
+
+.modal-content {
+  background-color: var(--Dark-gray);
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  width: 400px;
+  max-width: 90%;
+  border: 2px solid var(--Orange-500);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.modal-input-container {
+  margin: 1rem 0;
+}
+
+.modal-input-container input {
+  width: 95%;
+  padding: 0.4rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.error-message {
+  color: red;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+/* .cancel-btn {
+  background-color: var(--Orange-1000);
+} */
+
+/* .confirm-btn {
+  background-color: var(--Orange-500);
+  color: white;
+} */

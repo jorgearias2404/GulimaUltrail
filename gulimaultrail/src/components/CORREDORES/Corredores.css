@@ -1,0 +1,27 @@
+/* ============= PRUEBA================ */
+.csv-input {
+  position: absolute;
+  width: 28px;
+  height: 30px;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* ======================================= */
+.body-corredores {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: auto;
+
+  padding-top: 1rem;
+  margin: 0px;
+
+  align-items: center;
+}
+
+/* ===== PRINT BTN ===== */
+.printer-icon {
+  height: 3rem;
+}

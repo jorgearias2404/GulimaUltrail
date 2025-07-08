@@ -1,0 +1,62 @@
+.body-puntaje {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: auto;
+
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+}
+.puntajes-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: auto;
+
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+}
+.pts-nav-container {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  width: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pts-head-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "obj1 obj2 obj3";
+
+  width: 90%;
+
+  align-items: center;
+  justify-content: center;
+}
+.obj1 {
+  grid-area: obj1;
+  display: flex;
+  justify-self: flex-start;
+}
+.obj2 {
+  grid-area: obj2;
+  display: flex;
+  justify-content: center;
+}
+.obj3 {
+  grid-area: obj3;
+  display: flex;
+  justify-content: flex-end;
+}
+#distancia-pts {
+  width: auto;
+}

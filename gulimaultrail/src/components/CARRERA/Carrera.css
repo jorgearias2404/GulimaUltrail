@@ -1,0 +1,105 @@
+.body-carrera {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: auto;
+
+  padding-top: 1rem;
+  margin: 0px;
+
+  align-items: center;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: 90%;
+}
+
+.carrera-container {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.carrera-btns-container {
+  display: flex;
+  flex-direction: row;
+
+  gap: 2rem;
+}
+
+.carrera-button {
+  display: flex;
+  flex-direction: row;
+
+  align-content: center;
+  justify-content: center;
+
+  height: 2.3rem;
+
+  margin-bottom: 0.5rem;
+  padding: 0.4rem 1.5rem;
+  gap: 0.5rem;
+
+  color: var(--White);
+
+  border-radius: var(--bradius-small);
+
+  border: 2px solid var(--Orange-1000);
+
+  transition: all ease 0.2s;
+}
+.carrera-button svg {
+  fill: var(--White);
+}
+.btn-inactivo {
+  background-color: var(--Orange-1000);
+  transition: all ease 0.2s;
+}
+.btn-activo {
+  border: 2px solid var(--Orange-250);
+  background-color: var(--Orange-250);
+  transition: all ease 0.2s;
+}
+
+/* BUTTONS HOVER */
+.carrera-button:hover {
+  border: 2px solid var(--Orange-500);
+  background-color: var(--Orange-500);
+  transition: all ease 0.2s;
+}
+
+.arrival-bar {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: left;
+  gap: 0.5rem;
+
+  margin-bottom: 1.1rem;
+
+  color: var(--White);
+
+  font-weight: bold;
+}
+.arrival-bar div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.arrival-bar div :nth-child(1) {
+  border-radius: var(--bradius-small);
+}
+.arrival-bar div :nth-child(2) {
+  padding: 0.3rem;
+
+  border-radius: var(--bradius-small);
+}

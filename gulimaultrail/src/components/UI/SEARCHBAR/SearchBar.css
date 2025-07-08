@@ -1,0 +1,16 @@
+.search-bar {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  gap: 0.5rem;
+
+  color: var(--White);
+
+  font-weight: bold;
+}
+.search-bar input {
+  height: 1.3rem;
+  width: 13rem;
+  border-radius: var(--bradius-small);
+}

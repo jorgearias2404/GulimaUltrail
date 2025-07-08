@@ -1,0 +1,85 @@
+/* ==================== NAVBAR ==================== */
+.body-navbar {
+  display: flex;
+
+  width: 95%;
+  height: 3rem;
+
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 1rem;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+
+  width: 100%;
+
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+
+  margin-top: 1.2rem;
+
+  border-bottom: 3px solid var(--Orange-500);
+}
+/* =============== LOGO =============== */
+.gulima-logo {
+  position: absolute;
+
+  height: 2.4rem;
+
+  left: 3%;
+
+  margin-bottom: 0.5rem;
+
+  fill: var(--White);
+}
+/* =============== BUTTONS =============== */
+.nav-btn {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 0.5rem;
+  padding: 0.3rem 1.5rem;
+  gap: 0.5rem;
+
+  border-radius: var(--bradius-small);
+
+  color: var(--White);
+
+  transition: all ease 0.2s;
+}
+
+/* ========== HOVER ========== */
+.nav-btn:hover {
+  cursor: pointer;
+  background-color: var(--Orange-1000);
+  transition: all ease 0.2s;
+}
+.nav-btn:hover :nth-child(1) {
+  fill: var(--Dark-gray);
+  transition: all ease 0.2s;
+}
+.nav-btn:hover :nth-child(2) {
+  color: var(--Dark-gray);
+  transition: all ease 0.2s;
+}
+
+.nav-btn.activo {
+  cursor: pointer;
+  background-color: var(--Orange-1000);
+  color: var(--Dark-gray);
+  transition: all ease 0.2s;
+}
+.activo :nth-child(1) {
+  fill: var(--Dark-gray);
+  transition: all ease 0.2s;
+}
+.activo :nth-child(2) {
+  color: var(--Dark-gray);
+  transition: all ease 0.2s;
+}
